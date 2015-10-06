@@ -1,0 +1,180 @@
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  font-size: 10px; }
+
+body {
+  background-color: #3E4651;
+  font-family: 'Dosis';
+  font-size: 10px; }
+
+a {
+  color: #00B5B5;
+  text-decoration: none;
+  text-transform: capitalize; }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #F1654C;
+  font-family: 'Kaushan Script', cursive;
+  margin: 20px 0; }
+
+h1 {
+  font-size: 60px;
+  font-size: 6rem; }
+
+h2 {
+  font-size: 48px;
+  font-size: 4.8rem; }
+
+h3 {
+  font-size: 36px;
+  font-size: 3.6rem; }
+
+h4 {
+  font-size: 32px;
+  font-size: 3.2rem; }
+
+h5 {
+  font-size: 28px;
+  font-size: 2.8rem; }
+
+h6 {
+  font-size: 24px;
+  font-size: 2.4rem; }
+
+button {
+  background-color: #00B5B5;
+  border: none;
+  box-sizing: border-box;
+  color: #3E4651;
+  font-size: 18px;
+  font-size: 1.8rem;
+  padding: 10px; }
+
+.content-wrapper {
+  margin: 0 auto;
+  overflow: hidden;
+  width: 85%; }
+
+header {
+  background: url(../img/header-banner.jpg) no-repeat center center;
+  background-size: cover;
+  overflow: hidden;
+  padding-bottom: 50px;
+  -webkit-box-shadow: 0px 30px 100px 0px black;
+  -moz-box-shadow: 0px 30px 100px 0px black;
+  box-shadow: 0px 30px 100px 0px black; }
+
+.header-title {
+  float: none;
+  line-height: 90px;
+  text-align: center;
+  width: 100%; }
+
+.social-container {
+  display: none; }
+
+.main-logo {
+  display: none; }
+
+.mobile-logo {
+  display: block;
+  float: left;
+  height: 40px;
+  margin: 10px 2%;
+  width: 70px; }
+  .mobile-logo img {
+    height: 100%;
+    width: 100%; }
+
+header nav {
+  display: block;
+  float: none;
+  margin: 10px 0;
+  overflow: hidden;
+  padding: 10px 0;
+  text-align: center;
+  width: 100%; }
+
+nav .social-container {
+  display: block;
+  padding: 15px 0;
+  width: 100%; }
+  nav .social-container .social-icon {
+    float: left;
+    list-style: none;
+    text-align: center;
+    width: 50%; }
+
+.social-img {
+  height: 30px;
+  width: 30px; }
+
+.nav-item {
+  border-bottom: 1px solid #d4d4d4;
+  float: none;
+  list-style: none;
+  padding: 15px 0;
+  width: 100%; }
+  .nav-item a {
+    font-size: 24px;
+    font-size: 2.4rem; }
+  .nav-item:hover {
+    background-color: #d4d4d4; }
+
+.post-wrapper {
+  margin: 50px 0;
+  overflow: hidden;
+  width: 100%; }
+
+.post-item {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  overflow: hidden;
+  margin-bottom: 50px;
+  padding: 15px 2%;
+  width: 100%; }
+  .post-item img {
+    border: 1px solid #000;
+    height: auto;
+    margin: 10px 0;
+    width: 100%; }
+  .post-item h3 {
+    text-align: left;
+    width: 100%; }
+  .post-item p {
+    color: #f2f2f2;
+    font-size: 24px;
+    font-size: 2.4rem;
+    margin: 20px 0;
+    width: 100%; }
+
+.post-date {
+  display: inline-block;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 12px;
+  font-size: 1.2rem; }
+
+.paginator {
+  font-size: 18px;
+  font-size: 1.8rem;
+  text-align: center;
+  width: 100%; }
+  .paginator li {
+    color: #00B5B5;
+    float: left;
+    list-style: none;
+    margin-right: 1%;
+    width: 30%; }
+
+aside {
+  background-color: rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  margin: 15px 0;
+  padding: 15px 2%; }
+
+/*# sourceMappingURL=styles.css.map */

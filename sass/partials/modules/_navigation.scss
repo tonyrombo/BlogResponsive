@@ -1,0 +1,64 @@
+// input[type=checkbox]{
+//     display: none;
+// }
+
+.main-logo{
+	display: none;
+}
+
+.mobile-logo{
+	display: block;
+	float: left;
+	height: 40px;
+	margin: 10px 2%;
+	width: 70px;
+
+	img{
+		height: 100%;
+		width: 100%;
+	}
+}
+
+header nav{
+	display: block;
+	float: none;
+	margin: 10px 0;
+	overflow: hidden;
+	padding: 10px 0;
+	text-align: center;
+	width: 100%;
+}
+
+nav .social-container{
+	display: block;
+	padding: 15px 0;
+	width: 100%;
+
+	.social-icon{
+		float: left;
+		list-style: none;
+		text-align: center;
+		width: 50%;
+	}
+}
+
+.social-img{
+	height: 30px;
+	width: 30px;
+}
+
+.nav-item{
+	border-bottom: 1px solid #d4d4d4;
+	float: none;
+	list-style: none;
+	padding: 15px 0;
+	width: 100%;
+
+	a{
+		@include font-size(24);
+	}
+
+	&:hover{
+		background-color: #d4d4d4;
+	}
+}

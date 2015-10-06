@@ -1,0 +1,65 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 10px;
+}
+
+body{
+	background-color: $body-background;
+	font-family: 'Dosis';
+	font-size: 10px;
+}
+
+a{
+	color: $link-color;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+h1,h2,h3,h4,h5,h6{
+	color: $title-color;
+	font-family: 'Kaushan Script', cursive;
+	margin: 20px 0;
+}
+
+h1{
+	@include font-size(60);
+}
+
+h2{
+	@include font-size(48);
+}
+
+h3{
+	@include font-size(36);
+}
+
+h4{
+	@include font-size(32);
+}
+
+h5{
+	@include font-size(28);
+}
+
+h6{
+	@include font-size(24);
+}
+
+button{
+	background-color: $highlight;
+	border: none;
+	box-sizing: border-box;
+	color: $body-background;
+	@include font-size(18);
+	padding: 10px;
+}
+
+.content-wrapper{
+	margin: 0 auto;
+	overflow: hidden;
+	width: 85%;
+}

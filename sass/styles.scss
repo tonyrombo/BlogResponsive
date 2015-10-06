@@ -1,0 +1,16 @@
+//FONTS//
+
+//Kaushan Script//
+@import url(https://fonts.googleapis.com/css?family=Kaushan+Script);
+//Dosis//
+@import url(https://fonts.googleapis.com/css?family=Dosis:400,200,300,500,600,700,800);
+
+@import "partials/_variables.scss";
+@import "partials/_mixins.scss";
+@import "partials/_base.scss";
+
+
+@import "partials/modules/_header.scss";
+@import "partials/modules/_navigation.scss";
+@import "partials/modules/_posts-section.scss";
+@import "partials/modules/_sidebar.scss";
