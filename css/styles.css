@@ -176,5 +176,29 @@ aside {
   box-sizing: border-box;
   margin: 15px 0;
   padding: 15px 2%; }
+  aside a {
+    font-size: 18px;
+    font-size: 1.8rem; }
+
+.sidebar-item {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  margin-bottom: 20px;
+  padding: 10px 0;
+  width: 100%; }
+  .sidebar-item a {
+    display: inline-block;
+    margin-bottom: 20px;
+    width: 100%; }
+
+.side-date {
+  color: rgba(255, 255, 255, 0.5);
+  display: inline-block;
+  font-size: 12px;
+  font-size: 1.2rem;
+  width: 100%; }
+
+footer {
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 10px; }
 
 /*# sourceMappingURL=styles.css.map */

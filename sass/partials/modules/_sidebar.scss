@@ -3,4 +3,28 @@ aside{
 	box-sizing: border-box;
 	margin: 15px 0;
 	padding: 15px 2%;
+
+	a{
+		@include font-size(18);
+	}
+}
+
+.sidebar-item{
+	border-bottom: 1px solid rgba(255,255,255,0.1);
+	margin-bottom: 20px;
+	padding: 10px 0;
+	width: 100%;
+
+	a{
+		display: inline-block;
+		margin-bottom: 20px;
+		width: 100%;
+	}
+}
+
+.side-date{
+	color: rgba(255,255,255,0.5);
+	display: inline-block;
+	@include font-size(12);
+	width: 100%;
 }
