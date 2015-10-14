@@ -4,6 +4,10 @@
 
 .main-logo{
 	display: none;
+
+	@media screen and (min-width: 1024px){
+		display: inline-block;
+	}
 }
 
 .mobile-logo{
@@ -12,6 +16,10 @@
 	height: 40px;
 	margin: 10px 2%;
 	width: 70px;
+
+	@media screen and (min-width: 1024px){
+		display: none;
+	}
 
 	img{
 		height: 100%;

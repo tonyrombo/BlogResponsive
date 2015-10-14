@@ -20,9 +20,11 @@ a{
 }
 
 h1,h2,h3,h4,h5,h6{
+	clear: both;
 	color: $title-color;
 	font-family: 'Kaushan Script', cursive;
 	margin: 20px 0;
+	width: 100%;
 }
 
 h1{
@@ -61,5 +63,5 @@ button{
 .content-wrapper{
 	margin: 0 auto;
 	overflow: hidden;
-	width: 85%;
+	width: 95%;
 }
