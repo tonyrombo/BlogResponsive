@@ -83,7 +83,16 @@ header {
   display: none; }
   @media screen and (min-width: 1024px) {
     .main-logo {
-      display: inline-block; } }
+      display: inline-block;
+      border: none;
+      float: left;
+      height: 50px;
+      margin: 0 10px;
+      padding-top: 10px;
+      width: 70px; }
+      .main-logo img {
+        height: 100%;
+        width: 100%; } }
 
 .mobile-logo {
   display: block;
@@ -106,6 +115,10 @@ header nav {
   padding: 10px 0;
   text-align: center;
   width: 100%; }
+  @media screen and (min-width: 1024px) {
+    header nav {
+      margin: 0;
+      padding: 0; } }
 
 nav .social-container {
   display: block;
@@ -127,6 +140,19 @@ nav .social-container {
   list-style: none;
   padding: 15px 0;
   width: 100%; }
+  @media screen and (min-width: 1024px) {
+    .nav-item {
+      border: none;
+      display: table-cell;
+      float: left;
+      height: 50px;
+      margin: 0 10px;
+      padding-top: 16px;
+      vertical-align: middle;
+      width: 100px; }
+      .nav-item img {
+        height: auto;
+        width: 100%; } }
   .nav-item a {
     font-size: 24px;
     font-size: 2.4rem; }
