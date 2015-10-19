@@ -79,6 +79,22 @@ header {
   text-align: center;
   width: 100%; }
 
+.show-menu-check[type=checkbox] {
+  display: none; }
+
+.show-menu {
+  display: none; }
+  @media screen and (max-width: 1000px) {
+    .show-menu {
+      color: #00B5B5;
+      display: inline-block;
+      float: right;
+      font-size: 18px;
+      height: 50px;
+      margin: 20px 2% 0 0;
+      text-align: center;
+      width: 100px; } }
+
 .main-logo {
   display: none; }
   @media screen and (min-width: 1024px) {
@@ -107,17 +123,21 @@ header {
     height: 100%;
     width: 100%; }
 
-header nav {
+nav {
   display: block;
   float: none;
+  height: 0;
   margin: 10px 0;
   overflow: hidden;
   padding: 10px 0;
   text-align: center;
+  transition: height 1s linear;
   width: 100%; }
   @media screen and (min-width: 1024px) {
-    header nav {
+    nav {
+      height: 248px;
       margin: 0;
+      overflow: hidden;
       padding: 0; } }
 
 nav .social-container {
@@ -158,6 +178,9 @@ nav .social-container {
     font-size: 2.4rem; }
   .nav-item:hover {
     background-color: #d4d4d4; }
+
+.show-menu-check:checked + nav {
+  height: 248px; }
 
 .post-wrapper {
   box-sizing: border-box;
